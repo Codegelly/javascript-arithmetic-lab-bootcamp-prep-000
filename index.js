@@ -1,15 +1,31 @@
-const add = (a, b) => a + b
+var add = function add(a, b) {
+  return a + b;
+};
 
-const subtract = (a, b) => a - b
+var subtract = function subtract(a, b) {
+  return a - b;
+};
 
-const multiply = (a, b) => a * b
+var multiply = function multiply(a, b) {
+  return a * b;
+};
 
-const divide = (a, b) => a / b
+var divide = function divide(a, b) {
+  return a / b;
+};
 
-const inc = (n) => ++n
+var inc = function inc(n) {
+  return ++n;
+};
 
-const dec = (n) => --n
+var dec = function dec(n) {
+  return --n;
+};
 
-const makeInt = (n) => parseInt(n, 10)
+var makeInt = function makeInt(n) {
+  return parseInt(n, 10);
+};
 
-const preserveDecimal = (n) => parseFloat(n)
+var preserveDecimal = function preserveDecimal(n) {
+  return parseFloat(n);
+};
